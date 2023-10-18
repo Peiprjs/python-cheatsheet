@@ -1,6 +1,7 @@
 # Data structures in Python
 
 ## Type conversion
+
 | Method       	| Explanation 					| Usage		  | 
 |---------------|-----------------------------------------------|-----------------|
 | `type()` 	| Read the type of a variable  			| `type(var)` 	  |
@@ -9,6 +10,7 @@
 | `complex()`   | Set a variable to be a complex 		| `complex(var)`  |
 
 ## Arithmetic operations
+
 | Method       	 | Explanation 					| Usage		  | 
 |----------------|----------------------------------------------|-----------------|
 | `+` 	 	 | Addition 			 		| `x+y` 	  |
@@ -23,6 +25,7 @@
 [TBD]
 
 ## Assignment operations
+
 | Method       	 | Explanation 					| Usage 	  | 
 |----------------|----------------------------------------------|-----------------|
 | `=` 	 	 | Assign value to variable	 		| `x=value` 	  |
@@ -34,6 +37,7 @@
 | `//=`    	 | Equivalent to `x=x//value`		 	| `x//=value`	  |
 
 ## Comparison operations
+
 | Method       	 | Explanation 					| Usage		  | 
 |----------------|----------------------------------------------|-----------------|
 | `==` 	 	 | Equal to 			 		| `x==y` 	  |
