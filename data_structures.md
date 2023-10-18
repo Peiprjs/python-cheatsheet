@@ -1,16 +1,16 @@
 # Data structures in Python
 
 ## Type conversion
-| Method       	 | Explanation 					| Usage		  | 
-|:--------------:|----------------------------------------------|:---------------:|
-| `type()` 	 | Read the type of a variable  		| `type(var)` 	  |
-| `int()`	 | Set a variable to be an integer (truncate)   | `int(var)`	  |
-| `float()`    	 | Set a variable to be a float 		| `float(var)`    |
-| `complex()`    | Set a variable to be a complex 		| `complex(var)`  |
+| Method       	| Explanation 					| Usage		  | 
+|---------------|-----------------------------------------------|-----------------|
+| `type()` 	| Read the type of a variable  			| `type(var)` 	  |
+| `int()`	| Set a variable to be an integer (truncate)    | `int(var)`	  |
+| `float()`    	| Set a variable to be a float 			| `float(var)`    |
+| `complex()`   | Set a variable to be a complex 		| `complex(var)`  |
 
 ## Arithmetic operations
 | Method       	 | Explanation 					| Usage		  | 
-|:--------------:|----------------------------------------------|:---------------:|
+|----------------|----------------------------------------------|-----------------|
 | `+` 	 	 | Addition 			 		| `x+y` 	  |
 | `-`		 | Subtraction   				| `x-y`		  |
 | `*`    	 | Multiplication 				| `x*y`		  |
@@ -24,7 +24,7 @@
 
 ## Assignment operations
 | Method       	 | Explanation 					| Usage 	  | 
-|:--------------:|----------------------------------------------|:---------------:|
+|----------------|----------------------------------------------|-----------------|
 | `=` 	 	 | Assign value to variable	 		| `x=value` 	  |
 | `+=`		 | Equivalent to `x=x+value`   			| `x+=value`	  |
 | `-=`    	 | Equivalent to `x=x-value` 			| `x-=value`	  |
@@ -33,10 +33,9 @@
 | `**=`		 | Equivalent to `x=x**value` 			| `x**=value`	  |
 | `//=`    	 | Equivalent to `x=x//value`		 	| `x//=value`	  |
 
-
 ## Comparison operations
 | Method       	 | Explanation 					| Usage		  | 
-|:--------------:|----------------------------------------------|:---------------:|
+|----------------|----------------------------------------------|-----------------|
 | `==` 	 	 | Equal to 			 		| `x==y` 	  |
 | `!=`		 | Not equal to   				| `x!=y`	  |
 | `>`    	 | Greater than 				| `x>y`		  |
@@ -51,7 +50,7 @@
 
 ## List operations
  Method and usage  			 | Explanation 							 |  
-|:--------------------------------------:|---------------------------------------------------------------|
+|----------------------------------------|---------------------------------------------------------------|
 | `list=["value1","value2"]` 	 	 | Define a list 		 				 |
 | `list[position]` 			 | Read value of list at position (starts at 0)	(can be negative)|
 | `list.append()`  			 | Add items to the end of the list				 |
