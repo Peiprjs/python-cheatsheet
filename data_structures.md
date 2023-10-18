@@ -43,6 +43,11 @@
 | `<` 		 | Less than			 		| `x<y`	 	  |
 | `>=` 	 	 | Greater than or equal to 	 		| `x>=y` 	  |
 | `<=`		 | Less than or equal to			| `x<=y`	  |
+| `and`		 | If both statements are true = true		| `x=y and y=z`	  |
+| `or`		 | If one of the statements is true = true	| `x=y or y=z` 	  |
+| `not`		 | Reverse the result				| `not(x=y)`	  |
+| `is`		 | Strict equality (same object)		| `x is y`	  |
+| `is not`	 | Reverse strict equality (not same object)	| `x is not y`    |
 
 ## List operations
  Method and usage  			 | Explanation 							 |  
