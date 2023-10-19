@@ -51,6 +51,8 @@
 | `not`		 | Reverse the result				| `not(x=y)`	  |
 | `is`		 | Strict equality (same object)		| `x is y`	  |
 | `is not`	 | Reverse strict equality (not same object)	| `x is not y`    |
+| `in`		 | Sequence is present in object		| `x in y`	  |
+| `not in`	 | Sequence is not present in object		| `x not in y`    |
 
 ## List operations
 
