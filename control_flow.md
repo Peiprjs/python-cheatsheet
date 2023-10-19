@@ -2,6 +2,7 @@
 
 ## Conditional statements
 > These commands require strict indentation
+
 | Method       	| Explanation 							| Usage		 |
 |---------------|---------------------------------------------------------------|----------------|
 | `if` 		| If condition met, execute:					| `if a==b:` 	 |
@@ -10,12 +11,14 @@
 
 ## Iterative statements
 > These commands require strict indentation
+
 | Method       	| Explanation 							| Usage		 	  |
 |---------------|---------------------------------------------------------------|-------------------------|
 | `for`		| Per each item in a sequence, execute:	Sets item to seq value 	| `for item in sequence:` |
 | `while`	| While condition is met, execute: 			   	| `while i<5:`	 	  |
 
 ## Transfer statements
+
 | Method       	| Explanation 									|
 |---------------|-------------------------------------------------------------------------------|
 | `break` 	| Terminate the loop statement, continue execution after loop			|
