@@ -1,6 +1,7 @@
 # Data structures in Python
 
 ## Type conversion
+
 | Method	| Explanation					| Usage		  |
 |---------------|-----------------------------------------------|-----------------|
 |`type()`	|Read the type of a variable			|`type(var)`	  |
@@ -9,6 +10,7 @@
 |`complex()`	|Set a variable to be a complex			|`complex(var)`	  |
 
 ## Arithmetic operations
+
 | Method       	 | Explanation 					| Usage		  |
 |----------------|----------------------------------------------|-----------------|
 | `+` 	 	 | Addition 			 		| `x+y` 	  |
@@ -23,6 +25,7 @@
 [TBD]
 
 ## Assignment operations
+
 | Method       	 | Explanation 					| Usage 	  |
 |----------------|----------------------------------------------|-----------------|
 | `=` 	 	 | Assign value to variable	 		| `x=value` 	  |
@@ -34,6 +37,7 @@
 | `//=`    	 | Equivalent to `x=x//value`		 	| `x//=value`	  |
 
 ## Comparison operations
+
 | Method       	 | Explanation 					| Usage		  |
 |----------------|----------------------------------------------|-----------------|
 | `==` 	 	 | Equal to 			 		| `x==y` 	  |
@@ -73,7 +77,10 @@
 | `dict[key]`				 | Return the value of key item					 			|
 | `dict.get(key)`			 | Return the value of key item								|
 | `dict.setdefault(key,value)`		 | Return the value of key item. If key item does not exist, insert key with value.	|
+| `dict.keys()				 | Return a tuple containing a list of keys. Updates automatically.			|
+| `dict.values()			 | Return a tuple containing a list of values. Updates automatically.			|
+| `dict.items()			 	 | Return a tuple containing a list of key-value pairs. Updates automatically. 		|
 | `dict.pop(key)`			 | Removes the specified item, returns the removed value				|
 | `dict.popitem()`			 | Removes the last item inserted, returns the removed value				|
-| `len(dict)`				 | Return the length of a dictionary or tuple			 	|
-| `dict.clear()				 | Clear the entire dictionary					 	|
+| `len(dict)`				 | Return the length of a dictionary or tuple			 			|
+| `dict.clear()				 | Clear the entire dictionary.								|
