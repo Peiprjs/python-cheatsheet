@@ -69,7 +69,7 @@
  
 ## Dictionary operations
 
-| Method and usage  			 | Explanation 							 			|  
+| Method and usage | Explanation |  
 |----------------------------------------|--------------------------------------------------------------------------------------|
 | `dict={"Key": value,"Key": value}` 	 | Define a dictionary 		 				 			|
 | `dict=dict(Key=value, Key=value)`	 | Define a dictionary without quoting the keys			 			|
@@ -79,10 +79,10 @@
 | `dict[key]`				 | Return the value of key item					 			|
 | `dict.get(key)`			 | Return the value of key item								|
 | `dict.setdefault(key,value)`		 | Return the value of key item. If key item does not exist, insert key with value.	|
-| `dict.keys()				 | Return a tuple containing a list of keys. Updates automatically.			|
-| `dict.values()			 | Return a tuple containing a list of values. Updates automatically.			|
-| `dict.items()			 	 | Return a tuple containing a list of key-value pairs. Updates automatically. 		|
+| `dict.keys()`	 | Return a tuple containing a list of keys. Updates automatically.			|
+| `dict.values()`			 | Return a tuple containing a list of values. Updates automatically.			|
+| `dict.items()`			 	 | Return a tuple containing a list of key-value pairs. Updates automatically. 		|
 | `dict.pop(key)`			 | Removes the specified item, returns the removed value				|
 | `dict.popitem()`			 | Removes the last item inserted, returns the removed value				|
 | `len(dict)`				 | Return the length of a dictionary or tuple			 			|
-| `dict.clear()				 | Clear the entire dictionary.								|
+| `dict.clear()`				 | Clear the entire dictionary.								|
