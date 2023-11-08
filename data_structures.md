@@ -5,6 +5,7 @@
 | Method	| Explanation					| Usage		  |
 |---------------|-----------------------------------------------|-----------------|
 |`type()`	|Read the type of a variable			|`type(var)`	  |
+| `str()`| Set a variable to be a string | `string(var)`|
 |`int()`	|Set a variable to be an integer (truncate)	| `int(var)`	  |
 |`float()`	|Set a variable to be a float 			|`float(var)`	  |
 |`complex()`	|Set a variable to be a complex			|`complex(var)`	  |
