@@ -66,6 +66,7 @@
 | `list.remove(value)`			 | Remove the first item with value value			 |
 | `list.pop(index)`			 | Remove the value at index and return it. Default index: -1 	 |
 | `list.sort(reverse=Bool, key=funct)`	 | Sort the list. Default Bool: false. Default key: ascending	 |
+| `list.index(value)` | Return the first index with value value|
  
 ## Dictionary operations
 
