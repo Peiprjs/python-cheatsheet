@@ -5,6 +5,7 @@
 | Method	| Explanation					| Usage		  |
 |---------------|-----------------------------------------------|-----------------|
 |`type()`	|Read the type of a variable			|`type(var)`	  |
+| `str()`| Set a variable to be a string | `string(var)`|
 |`int()`	|Set a variable to be an integer (truncate)	| `int(var)`	  |
 |`float()`	|Set a variable to be a float 			|`float(var)`	  |
 |`complex()`	|Set a variable to be a complex			|`complex(var)`	  |
@@ -67,6 +68,7 @@
 | `list.remove(value)`			 | Remove the first item with value value			 |
 | `list.pop(index)`			 | Remove the value at index and return it. Default index: -1 	 |
 | `list.sort(reverse=Bool, key=funct)`	 | Sort the list. Default Bool: false. Default key: ascending	 |
+<<<<<<< HEAD
 | `list.reverse()` 			 | Reverses the order of the list				 |
 | `len(list)` 				 | Returns the length of the list				 |
 | `list.count(value)			 | Returns how many times a value appears in the list	 	 |
@@ -94,9 +96,15 @@
 | `len(tuple)` 				 | Returns the length of the 				 |
 | `tuple.count(value)			 | Returns how many times a value appears in the tuple	 	 |
 
+||||||| 8898ec5
+ 
+=======
+| `list.index(value)` | Return the first index with value value|
+ 
+>>>>>>> b43ee151c15eee8cb1f3636b8450065797530bb7
 ## Dictionary operations
 
-| Method and usage  			 | Explanation 							 			|  
+| Method and usage | Explanation |  
 |----------------------------------------|--------------------------------------------------------------------------------------|
 | `dict={"Key": value,"Key": value}` 	 | Define a dictionary 		 				 			|
 | `dict=dict(Key=value, Key=value)`	 | Define a dictionary without quoting the keys			 			|
@@ -106,10 +114,18 @@
 | `dict[key]`				 | Return the value of key item					 			|
 | `dict.get(key)`			 | Return the value of key item								|
 | `dict.setdefault(key,value)`		 | Return the value of key item. If key item does not exist, insert key with value.	|
-| `dict.keys()				 | Return a tuple containing a list of keys. Updates automatically.			|
-| `dict.values()			 | Return a tuple containing a list of values. Updates automatically.			|
-| `dict.items()			 	 | Return a tuple containing a list of key-value pairs. Updates automatically. 		|
+| `dict.keys()`	 | Return a tuple containing a list of keys. Updates automatically.			|
+| `dict.values()`			 | Return a tuple containing a list of values. Updates automatically.			|
+| `dict.items()`			 	 | Return a tuple containing a list of key-value pairs. Updates automatically. 		|
 | `dict.pop(key)`			 | Removes the specified item, returns the removed value				|
 | `dict.popitem()`			 | Removes the last item inserted, returns the removed value				|
+<<<<<<< HEAD
 | `len(dict)`				 | Return the length of a dictionary				 			|
 | `dict.clear()				 | Clear the entire dictionary.								|
+||||||| 8898ec5
+| `len(dict)`				 | Return the length of a dictionary or tuple			 			|
+| `dict.clear()				 | Clear the entire dictionary.								|
+=======
+| `len(dict)`				 | Return the length of a dictionary or tuple			 			|
+| `dict.clear()`				 | Clear the entire dictionary.								|
+>>>>>>> b43ee151c15eee8cb1f3636b8450065797530bb7
