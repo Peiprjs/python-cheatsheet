@@ -59,14 +59,41 @@
 | Method and usage  			 | Explanation 							 |  
 |----------------------------------------|---------------------------------------------------------------|
 | `list=["value1","value2"]` 	 	 | Define a list 		 				 |
-| `list[position]` 			 | Read value of list at position (starts at 0)	(can be negative)|
+| `list[index]` 			 | Read value of list at index (starts at 0)	(can be negative)|
+| `list[index]=value`		 | Update the value at index index with value value	 |
 | `list.append(value)` 			 | Add items to the end of the list				 |
 | `list.extend(sequence)`		 | Add a sequence of items at the end				 |
-| `list.insert(index,value)`		 | Insert value at index position				 |
+| `list.insert(index,value)`		 | Insert value at index index				 |
 | `list.remove(value)`			 | Remove the first item with value value			 |
 | `list.pop(index)`			 | Remove the value at index and return it. Default index: -1 	 |
 | `list.sort(reverse=Bool, key=funct)`	 | Sort the list. Default Bool: false. Default key: ascending	 |
- 
+| `list.reverse()` 			 | Reverses the order of the list				 |
+| `len(list)` 				 | Returns the length of the list				 |
+| `list.count(value)			 | Returns how many times a value appears in the list	 	 |
+
+
+## Tuple operations
+
+| Method and usage  			 | Explanation 							 |  
+|----------------------------------------|---------------------------------------------------------------|
+| `tuple=("value",value, value, "value")`| Define a tuple 		 				 |
+| `tuple[index]` 			 | Read value of tuple at index (starts at 0)(can be negative)	 |
+| `tuple+tuple2` 			 | Concatenate tuples						 |
+| `del tuple`				 | Deletes the entire tuple					 |
+| `len(tuple)` 				 | Returns the length of the tuple			 	 |
+| `tuple.count(value)			 | Returns how many times a value appears in the tuple	 	 |
+
+## Set operations
+
+| Method and usage  			 | Explanation 							 |  
+|----------------------------------------|---------------------------------------------------------------|
+| `tuple=("value",value, value, "value")`| Define a tuple 		 				 |
+| `tuple[index]` 			 | Read value of tuple at index (starts at 0)(can be negative)	 |
+| `tuple+tuple2` 			 | Concatenate tuples						 |
+| `del tuple`				 | Deletes the entire tuple					 |
+| `len(tuple)` 				 | Returns the length of the 				 |
+| `tuple.count(value)			 | Returns how many times a value appears in the tuple	 	 |
+
 ## Dictionary operations
 
 | Method and usage  			 | Explanation 							 			|  
@@ -74,7 +101,7 @@
 | `dict={"Key": value,"Key": value}` 	 | Define a dictionary 		 				 			|
 | `dict=dict(Key=value, Key=value)`	 | Define a dictionary without quoting the keys			 			|
 | `dict[key]=value`			 | Modify the value of an existing value or create a new one 	 			|
-| `del dict[key]`			 | Remove the key key and associated value 			 			|	
+| `del dict[key]`			 | Remove the key key and associated value 			 			|
 | `dict.update(pairs)`			 | Inserts items to the dictionary. Can add multiple at the same time 			|
 | `dict[key]`				 | Return the value of key item					 			|
 | `dict.get(key)`			 | Return the value of key item								|
@@ -84,5 +111,5 @@
 | `dict.items()			 	 | Return a tuple containing a list of key-value pairs. Updates automatically. 		|
 | `dict.pop(key)`			 | Removes the specified item, returns the removed value				|
 | `dict.popitem()`			 | Removes the last item inserted, returns the removed value				|
-| `len(dict)`				 | Return the length of a dictionary or tuple			 			|
+| `len(dict)`				 | Return the length of a dictionary				 			|
 | `dict.clear()				 | Clear the entire dictionary.								|
