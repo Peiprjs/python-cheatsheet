@@ -68,7 +68,6 @@
 | `list.remove(value)`			 | Remove the first item with value value			 |
 | `list.pop(index)`			 | Remove the value at index and return it. Default index: -1 	 |
 | `list.sort(reverse=Bool, key=funct)`	 | Sort the list. Default Bool: false. Default key: ascending	 |
-<<<<<<< HEAD
 | `list.reverse()` 			 | Reverses the order of the list				 |
 | `len(list)` 				 | Returns the length of the list				 |
 | `list.count(value)			 | Returns how many times a value appears in the list	 	 |
@@ -95,13 +94,8 @@
 | `del tuple`				 | Deletes the entire tuple					 |
 | `len(tuple)` 				 | Returns the length of the 				 |
 | `tuple.count(value)			 | Returns how many times a value appears in the tuple	 	 |
-
-||||||| 8898ec5
- 
-=======
 | `list.index(value)` | Return the first index with value value|
  
->>>>>>> b43ee151c15eee8cb1f3636b8450065797530bb7
 ## Dictionary operations
 
 | Method and usage | Explanation |  
@@ -119,13 +113,5 @@
 | `dict.items()`			 	 | Return a tuple containing a list of key-value pairs. Updates automatically. 		|
 | `dict.pop(key)`			 | Removes the specified item, returns the removed value				|
 | `dict.popitem()`			 | Removes the last item inserted, returns the removed value				|
-<<<<<<< HEAD
-| `len(dict)`				 | Return the length of a dictionary				 			|
-| `dict.clear()				 | Clear the entire dictionary.								|
-||||||| 8898ec5
-| `len(dict)`				 | Return the length of a dictionary or tuple			 			|
-| `dict.clear()				 | Clear the entire dictionary.								|
-=======
 | `len(dict)`				 | Return the length of a dictionary or tuple			 			|
 | `dict.clear()`				 | Clear the entire dictionary.								|
->>>>>>> b43ee151c15eee8cb1f3636b8450065797530bb7
